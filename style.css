@@ -77,7 +77,38 @@ input{
     border: 2px solid rebeccapurple;
   }
 
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.Strip {
+    width: 100%;
+    margin: 40px 40px 40px 40px;
+    padding: 10px 25px;
+    background-color: #E8EDF0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 10px;    
+}
 /* The Warranty Strip */
    /* *{
     border: 0;
