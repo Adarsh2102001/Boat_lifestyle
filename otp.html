@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTP</title>
+    <link rel = "icon" href = 
+    "https://tse3.mm.bing.net/th?id=OIP.zu9hp1QIdDCyyxT4I73p1QHaFj&pid=Api&P=0" 
+            type = "image/x-icon">
+</head>
+<style>
+    body{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    input{
+        height: 20px;
+        width: 75%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 2%;
+    }
+ #parent{
+    width: 35%;
+    height: 55%;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ #submit{
+    width: 80%;
+    height: 20%;
+        margin-left: 8%;
+	padding: 10px 5px;
+	background: red;
+	color: white;
+	border: none;
+    border-radius: 8px;
+	margin-top: 10px;
+    font-weight: bold;
+ }
+ #submit:hover{
+        cursor: pointer;
+        background: black;
+    }
+
+</style>
+<body>
+    <div id="parent">
+    <h1>Enter OTP</h1><br>
+    <p>Otp has been send to *******1414</p>
+    <form id="otp-form">
+    <input id="Otp" type="number" placeholder="Enter OTP"><br>
+    <button id="submit">Verify</button>
+    </form>
+</div>
+</body>
+<script>
+    document.getElementById("otp-form").addEventListener("submit",verify);
+    function verify(){
+        event.preventDefault();
+        var otp=document.getElementById("Otp").value;
+        if(otp=="1234"){
+            alert("Payment successfull");
+            window.location.href="https://www.boat-lifestyle.com/collections/true-wireless-earbuds";
+        }
+        else{
+            alert("Error : Invalid OTP");
+        }
+    }
+</script>
+</html>
