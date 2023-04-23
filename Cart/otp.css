@@ -1,0 +1,38 @@
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    height: 20px;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+#parent{
+width: 35%;
+height: 55%;
+text-align: center;
+background-color: white;
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#submit{
+width: 80%;
+height: 20%;
+    margin-left: 8%;
+padding: 10px 5px;
+background: red;
+color: white;
+border: none;
+border-radius: 8px;
+margin-top: 10px;
+font-weight: bold;
+}
+#submit:hover{
+    cursor: pointer;
+    background: black;
+}

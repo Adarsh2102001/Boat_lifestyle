@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel = "icon" href = 
+    "https://tse3.mm.bing.net/th?id=OIP.zu9hp1QIdDCyyxT4I73p1QHaFj&pid=Api&P=0" 
+            type = "image/x-icon">
+
+            <link rel="stylesheet" href="payment.css">
+</head>
+
+
+<body>
+        
+            <div class="nav-box">
+                <div id="branding">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boat_logo_small.webp?v=1672379935"
+                        alt="Boat logo">
+                </div>
+            </div>
+        <div class="parent">
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+                <form>
+                <label for="">Full Name</label><br>
+                <input type="text" placeholder="Enter Your Name"><br>
+
+                <label for="">Email</label><br>
+                <input type="text" placeholder="Enter Your Email"><br>
+
+                <label for="">Address</label><br>
+                <input type="text" placeholder="Enter Your Address"><br>
+
+                <label for="">City</label><br>
+                <input type="text" placeholder="Enter Your City"><br>
+
+                <label>State</label><br>
+                <input type="text" placeholder="Enter Your State"><br>
+
+                <label>Pin Code</label><br>
+                <input type="number" placeholder="Enter Your Pin-Code"><br>
+            </form>
+            </div>
+            <div class="right">
+                <h3>Payment</h3>
+                <form id="Payment">
+                    <label for="">Accepted Card</label><br>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.2Flmx_KvMMOEmtzlwrbr5gHaBK&pid=Api&P=0" alt="cards"><br>
+    
+                    <label for="">Card Number</label><br>
+                    <input id="card" type="Number" placeholder="Enter Your Card Number"><br>
+    
+                    <label for="">Expiry Month</label><br>
+                    <input type="text" placeholder="Enter Expiry Month"><br>
+    
+                    <label for="">Expiry Year</label><br>
+                    <input type="text" placeholder="Expiry Year"><br>
+    
+                    <label>CVV</label><br>
+                    <input id="cvv" type="Number" placeholder="Enter Your CVV"><br>
+    
+                    <Button id="submit">Proceed to Checkout</Button>
+                </form>
+            </div>
+        </div>
+    
+</body>
+
+     <script src="payment.js"></script>
+
+</html>

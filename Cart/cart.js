@@ -91,7 +91,12 @@
         }, 0)
         console.log(total)
         document.getElementById("total-price").textContent=total;
+         
+        document.getElementById("Confirm-Order").addEventListener("click",goToPayment);
 
+        function goToPayment(){
+            window.location.href="payment.html";
+        }
         
 
     }
