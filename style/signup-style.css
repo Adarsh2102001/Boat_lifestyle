@@ -19,7 +19,7 @@
     .customer-login-links{
         padding-bottom: 5%;
         font-size: larger;
-        margin-right: 9%;
+        margin-right: 27%;
         font-weight: bold;
     }
     a{
@@ -54,6 +54,55 @@
         height: 15%;
     
     }
+    
+    
+        @media only screen and (max-width: 767px) { /* for mobile screens */
+            .customer-login-container {
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 20%;
+            }
+            .customer-login-container>div h2 {
+            margin-right: 0;
+            font-size: large;
+            }
+            .customer-login-links {
+            margin-right: 0;
+            font-size: medium;
+            }
+            .input-tabs input {
+            width: 100%;
+            }
+            .customer-login-container button {
+            width: 100%;
+            }
+            }
+            
+            @media only screen and (min-width: 768px) and (max-width: 991px) { /* for tablet screens */
+            .customer-login-container {
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-bottom: 15%;
+            }
+            .customer-login-container>div h2 {
+            margin-right: 20%;
+            font-size: large;
+            }
+            .customer-login-links {
+            margin-right: 10%;
+            font-size: medium;
+            }
+            .input-tabs input {
+            width: 80%;
+            }
+            .customer-login-container button {
+            width: 80%;
+            }
+            }
+            @media (max-width: 2040px){
+                
+            }
+    
     
     /* footer css */
     body{
@@ -186,3 +235,76 @@
     .bottom-row>p>span{
         font-weight:600
     }
+    
+    /* media querry footer */
+    @media (max-width: 768px) {
+    .relative-button input{
+        width: 80%;
+    } 
+    .subscribe-container button{
+        width: 80%;
+    }
+     
+    }
+    @media (max-width: 426px) {
+        .sitemap {
+            flex-direction: column;
+            text-align: center;
+          }
+          .item-list {
+            flex-direction: column;
+          }
+        
+          .vertical-line-1 {
+            display: none;
+          }
+          .social-media-logo div{
+            display:block ;
+            margin: auto;
+            
+          }
+          .downloads-payments{
+            flex-direction: column;
+            text-align: center;
+          }
+          .downloads-payments b{
+            font-size: larger;
+          }
+          .downloads-payments>div b{
+            font-size: larger;
+    
+          }
+          .app-logo{
+            display: block;
+            margin: auto;
+        
+          }
+          
+          .app-logo>img{
+            width: 50%;
+        }
+        .payment-logo>img{
+            width: 100%;
+        }
+        .bottom-row>p{
+            line-height: 30px;
+        }
+    
+         
+        }
+        @media (max-width: 376px){
+            .bottom-row {
+                padding-left: 1%;
+                text-align: center;
+            }
+            }
+            @media (max-width:321px){
+                .bottom-row>div{
+                    display: none;
+                }
+            }
+        
+    
+    
+    
+    
