@@ -41,7 +41,7 @@ sendOtpButton.addEventListener('click', function() {
       // Code to submit OTP
       alert("You have successfully loggedin!");
 
-      window.location.href = "";
+      window.location.href = "../login"; //enter the location of homepage
     } else {
       alert("Wrong OTP entered. Please try again.");
     }
