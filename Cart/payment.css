@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 0px;
+      margin: 0px;
+      gap: 20px;
+ }
+ .parent{
+     margin-top: -15px;
+     background-color: white;
+     width: 800px;
+     height: 560px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     border-radius: 10px;
+     border-top: 1px solid black;
+     border-left: 1px solid black;
+     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+ }
+ .parent label{
+     margin-left: 2.5%;
+ }
+ .parent h3{
+     text-align: center;
+ }
+ input{
+     height: 30px;
+     width: 90%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 2%;
+     border: 2px solid black;
+     border-radius: 8px;
+ }
+
+ .left{
+     width: 50%;
+     /* background-color: rgb(92, 92, 92); */
+     height: 100%;
+     justify-content: space-between;
+ }
+ .right{
+     width:  50%;
+     border-left: 1px solid rgb(163, 161, 161);
+     height: 100%;
+     justify-content: space-between;
+ }
+ form{
+     padding: 0;
+ }
+ img{
+     height: 38px;
+     width: 100%;
+ }
+ #submit{
+     width: 80%;
+     margin-left: 8%;
+ padding: 10px 5px;
+ background: red;
+ color: white;
+ border: none;
+ border-radius: 8px;
+ margin-top: 10px;
+ font-weight: bold;
+ }
+ #submit:hover{
+     cursor: pointer;
+     background: black;
+     font-style: italic;
+ }
+ .nav-box{
+ width: 95%;
+ height: 10%;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+#branding{
+ width: 70px;
+}
+ @media only screen and (max-width: 770px){
+     .parent{
+     flex-direction: column;
+ }
+
+ body{
+     overflow-x: hidden;
+ }
+}

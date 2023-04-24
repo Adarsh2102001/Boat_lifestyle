@@ -1,0 +1,222 @@
+body{
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-box{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+#head-p{
+    margin-top: 0px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+/* header  */
+header{
+    max-height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+}
+/* navBar */
+header a{
+    /* color: #ffffff; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0px;
+    padding: 0px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 15px 20px 15px 20px;
+    font-weight: bold;
+    color: black;
+    /* font-size: 35px; */
+}
+header #branding{
+    float: left;
+    width: 300px;
+    margin-left: -100px;
+    margin-top: 10px;
+} 
+header nav {
+    float: inline-start;
+    margin-left: 200px;
+    margin-top: -45px;
+}
+#input_icon{
+    float: right;
+    margin-top: 12px;
+    
+}
+input{
+    margin-right: 10px;
+    background-color:#eaeaea;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    padding: 10PX;
+}
+#parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 25px;
+    text-align: center;
+    /* margin-top: 25%; */
+    
+    
+}
+#btn{
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#btn:hover{
+    cursor: pointer;
+    color: black;
+}
+#cartDiv{
+    display: flex;
+    width: 100%;
+    border: solid black;
+}
+img{
+    width: 50px;
+}
+.bag{
+height:200px;
+width:auto;
+}
+.productbox{
+width:60%;
+height:auto;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+margin:auto;
+display:flex;
+margin-top: 50px;
+justify-content: center; 
+}
+#mini-cart{
+ max-height: 200px;
+overflow: auto;
+
+}
+#add-items{
+width: 62%;
+height: 60px;
+font-size: 15px;
+text-align: left;
+margin-top: 100px;
+background-color: white;
+border-style: dotted;
+border-color: grey;
+}
+#add-items:hover{
+cursor: pointer;
+}
+#plus{
+ font-size: 15px;
+ color: red;
+}
+
+#strip{
+width: 59%;
+height: 60px;
+font-size: 15px;
+margin-left: 16%;
+
+}
+.container {
+        width: 102%;
+        margin: 40px 40px 40px 40px;
+        padding: 10px 25px;
+        background-color: #E8EDF0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        width: 20%;
+        height: 20%;
+        margin-left: 10px;
+        margin-right: 10px;    
+    }
+
+    span{
+        font-size: 30px;
+        color: #000000;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-weight: 600;
+        color: #000000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer{
+        width: 62%;
+        margin-top: 15px;
+        padding: 10px 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: 18%;
+    }
+    #total{
+        padding-right: 4%;
+         border-right: 4px solid #dbdbdb;
+    }
+    #Confirm-Order{
+        width: 400px;
+        height: 60px;
+        font-size: 30px;
+       font-weight: bold;
+       background-color: red;
+       border: none;
+       border-radius: 3px;
+       color: white;
+    }
+    #Confirm-Order:hover{
+        cursor: pointer;
+    }
+    .remove{
+        background-color: red;
+        padding: 10px;
+        color:white;
+        border-radius: 15px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        border: none;
+        margin-right: 0%;
+    }
+
+   .remove:hover{
+    cursor: pointer;
+    }
