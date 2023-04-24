@@ -26,7 +26,7 @@
 
         document.getElementById("btn").addEventListener("click",gotToHomePage)
         function gotToHomePage(){
-        window.location.href="https://www.boat-lifestyle.com/"
+        window.location.href="../index.html"
         }
       
     }
@@ -83,7 +83,7 @@
         })
         document.getElementById("add-items").addEventListener("click",additems);
         function additems(){
-            window.location.href="https://www.boat-lifestyle.com/"
+            window.location.href="../index.html"
         }
 
         var total = cart.reduce(function (acc, currel) {

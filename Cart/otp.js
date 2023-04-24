@@ -4,7 +4,7 @@ function verify(){
     var otp=document.getElementById("Otp").value;
     if(otp=="1234"){
         alert("Payment successfull");
-        window.location.href="https://www.boat-lifestyle.com/collections/true-wireless-earbuds";
+        window.location.href="../index.html";
     }
     else{
         alert("Error : Invalid OTP");
